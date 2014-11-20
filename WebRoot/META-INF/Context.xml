@@ -1,0 +1,9 @@
+<Context>
+ 
+  <Resource name="jdbc/movie" auth="Container" type="javax.sql.DataSource"
+               maxActive="15" maxIdle="7" maxWait="10000"
+               username="root" password="1957wb1225" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/movie"/>
+ 
+</Context>
