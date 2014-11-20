@@ -12,7 +12,7 @@ public class ConnectToMySQL {
 	public static Connection getConnection(){
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/movie", "root", "1957wb1225");
+			conn = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/movie", "root", "root");
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
